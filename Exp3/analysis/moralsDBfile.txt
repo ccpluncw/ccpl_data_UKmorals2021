@@ -1,4 +1,4 @@
-moralsTaskDataFile,dat.UKqMoralsQuant.txt
+moralsTaskDataFile,../mergedChineseData.txt
 valueOverlapDataFile,OverlapMoralsQuantUK.txt
 prepDataOutFile,preprocessedData.txt
 analysisReadyOutFile,analysisReadyData.txt
@@ -9,15 +9,16 @@ lowRTthreshold,0.025
 highRTthreshold,0.975
 highAveThresholdRT,0.95
 lowAveThresholdRT,0.0
-chanceThreshold,.6
+chanceThreshold,.4
 roundThreshold,.1
 roundThresholdSN,.1
 roundDirection,ceiling
 minOverlapN,20
+minOverlapNsn,10
 keybRTtransform,log
 RTresid,TRUE
 RTresidSN,TRUE
-dt.set,UK
+dt.set,Chinese
 snSubDir,subAnalysis
 gpSubDir,groupAnalysis
 itemSubDir,itemAnalysis
